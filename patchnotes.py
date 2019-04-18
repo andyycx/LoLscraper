@@ -22,12 +22,4 @@ contents = soup.find("div", id="patch-notes-container").text.strip()
 
 f.write(contents.replace("\u21d2", "TO"))
 
-##for box in patch_boxes:
-##    patches.append(box.text.strip())
-##
-##for patch in patches:
-##    for r in (("Notes", "Notes: "), ("notes", "Notes: ")):
-##        patch = patch.replace(*r)
-##    f.write(patch + "\n" + "\n")
-##
 f.close()
