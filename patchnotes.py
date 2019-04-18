@@ -1,7 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import re
-import functools
 
 f = open("lolpatches.txt", "w+")
 
